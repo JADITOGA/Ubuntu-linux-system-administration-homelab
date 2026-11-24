@@ -1,68 +1,120 @@
-# Linux System Administration Homelab
+# LINUX SYSTEMS & INFRASTRUCTURE
 
 <p align="center">
-  <strong>Building practical IT infrastructure skills through hands-on projects.</strong>
+  <strong>Building. Configuring. Securing. Troubleshooting.</strong>
+</p>
+
+<p align="center">
+  A hands-on homelab focused on Linux system administration, networking, infrastructure and security.
 </p>
 
 ---
 
-## About This Repository
+## `$ whoami`
 
-Welcome to my Linux System Administration Homelab!
+I'm an aspiring IT systems administrator with a strong interest in Linux, networking and cybersecurity.
 
-This repository documents my journey into IT infrastructure, Linux system administration, networking, and cybersecurity through practical projects.
+This repository documents my practical work in building and managing IT infrastructure using virtualized environments.
 
-The environment is built using Ubuntu Server running inside Oracle VirtualBox.
+Rather than focusing exclusively on theory, I use this homelab to explore how systems work, configure services, investigate problems and understand the decisions behind an infrastructure setup.
 
-My objective is to develop practical skills relevant to a **Fachinformatiker für Systemintegration (FISI)** career path in Germany.
-
-## Projects
-
-### Project 1: Linux Company Environment
-
-**Focus:** Linux fundamentals and company user management.
-
-- Linux users and groups
-- File permissions and ownership
-- Shared directories
-- SSH remote access
-- Nginx web server
-
-[Explore Project 1](./Project-1-Linux-Company-Environment/)
-
-### Project 2: Linux Web Server Infrastructure
-
-**Focus:** Web hosting, security, and automation.
-
-- Nginx virtual hosting
-- HTTPS and TLS
-- UFW firewall
-- SSH hardening
-- Automated backups
-- Recovery testing and Cron scheduling
-
-[Explore Project 2](./Project-2-Web-Server-Infrastructure/)
-
-## Technologies & Tools
-
-| Category | Technologies |
-|---|---|
-| Operating Systems | Ubuntu Server, Windows |
-| Virtualization | Oracle VirtualBox |
-| Web Hosting | Nginx |
-| Networking | SSH, TCP/IP, NAT |
-| Security | UFW, OpenSSL, TLS |
-| Automation | Bash, Cron |
-| Version Control | Git, GitHub |
-
-## Learning Objectives
-
-- Develop Linux administration skills.
-- Understand network services and infrastructure.
-- Configure and secure Linux servers.
-- Automate administrative tasks.
-- Practice troubleshooting and documentation.
+My long-term objective is to develop the technical foundation required for a **Fachinformatiker für Systemintegration (FISI)** Ausbildung in Germany.
 
 ---
 
-*This repository is an ongoing learning portfolio. New projects and improvements will be added as I develop my technical skills.*
+## `$ ls ./projects`
+
+### 01 / Linux Company Environment
+
+<sub>LINUX ADMINISTRATION · USER MANAGEMENT · SSH · WEB SERVICES</sub>
+
+A simulated company environment built on Ubuntu Server.
+
+The objective was to establish the foundations of a Linux-based IT environment, including user administration, permissions, shared resources and remote server access.
+
+**Key implementations**
+- User and group administration
+- Linux permissions and ownership
+- Shared company directories
+- SSH remote administration
+- Nginx web server deployment
+
+[→ Explore Project 01](./Project-1-Linux-Company-Environment/)
+
+---
+
+### 02 / Linux Web Server Infrastructure
+
+<sub>WEB HOSTING · NETWORK SECURITY · AUTOMATION · BACKUP & RECOVERY</sub>
+
+An expansion of the original environment into a more complete web server infrastructure for the fictional company Musterfirma GmbH.
+
+The objective was to host multiple websites while introducing encryption, network access controls, secure administration and automated backup procedures.
+
+**Key implementations**
+- Nginx virtual hosting
+- HTTPS configuration using TLS
+- UFW firewall rules
+- SSH key-based authentication
+- Bash backup automation
+- Cron scheduling and logging
+- Backup extraction and recovery testing
+
+[→ Explore Project 02](./Project-2-Web-Server-Infrastructure/)
+
+---
+
+## `$ cat technical-stack.txt`
+
+| Area | Technologies |
+|---|---|
+| Operating Systems | Ubuntu Server, Windows 11 |
+| Virtualization | Oracle VirtualBox |
+| Web Infrastructure | Nginx |
+| Networking | TCP/IP, SSH, NAT |
+| Security | UFW, OpenSSL, TLS |
+| Automation | Bash, Cron |
+| Administration | Linux CLI, systemd |
+| Version Control | Git, GitHub |
+
+---
+
+## `$ cat engineering-principles.txt`
+
+**Understand before configuring.**
+
+Every project is an opportunity to understand how individual components interact, not simply make a service work.
+
+**Troubleshoot, don't guess.**
+
+Investigate errors, identify their causes and verify that the solution actually works.
+
+**Security is part of the setup.**
+
+Permissions, authentication, firewall policies and sensitive data handling should be considered from the beginning.
+
+**Document the work.**
+
+Record configurations, architecture, testing procedures and lessons learned so that the environment can be understood and maintained.
+
+---
+
+## `$ ./roadmap.sh`
+
+Areas I intend to explore next:
+
+- Linux service administration and monitoring
+- DNS and DHCP infrastructure
+- Network segmentation and VLANs
+- Active Directory and Windows Server
+- Centralized logging
+- Advanced backup and disaster recovery
+- Practical cybersecurity labs
+
+---
+
+<p align="center">
+  <strong>BUILDING MY WAY INTO IT INFRASTRUCTURE.</strong>
+  <br/>
+  <sub>Hands-on projects · Continuous learning · Practical problem solving</sub>
+</p>
